@@ -1,0 +1,196 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Manova Abraham Portfolio (v3)</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* One plain reading column, like a well-kept document. */
+:root {
+  --bg: #fbfbfa;
+  --ink: #1f2328;
+  --muted: #5b636b;
+  --rule: #e2e4e6;
+  --link: #22577a;
+  --serif: "Spectral", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15191d; --ink: #e3e6e9; --muted: #9ba3ab; --rule: #2b3238; --link: #8cc3e0;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15191d; --ink: #e3e6e9; --muted: #9ba3ab; --rule: #2b3238; --link: #8cc3e0;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.65; }
+.page {
+  max-width: 720px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 56px 72px;
+}
+a { color: var(--link); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(38px, 7vw, 52px); line-height: 1.05; margin: 0; }
+h2 { font-family: var(--serif); font-weight: 500; font-size: 27px; line-height: 1.25; margin: 0 0 14px; }
+h3 { font-size: 18px; font-weight: 600; margin: 0; }
+p { margin: 0 0 14px; }
+ul, ol { margin: 0 0 14px; padding-left: 1.3em; }
+li { margin-bottom: 8px; }
+.sub { color: var(--muted); margin: 8px 0 0; font-size: 17px; }
+header { padding-bottom: 28px; border-bottom: 1px solid var(--rule); }
+nav { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 22px; font-size: 15px; }
+section { padding-block: 40px 26px; border-bottom: 1px solid var(--rule); }
+.project { margin-top: 30px; }
+.project .kind { color: var(--muted); font-size: 15.5px; margin: 2px 0 12px; }
+.small { font-size: 15.5px; color: var(--muted); }
+.contact p { margin-bottom: 8px; }
+.email { user-select: all; }
+button.copy {
+  font: 14px var(--sans); color: var(--link); background: none;
+  border: 1px solid var(--rule); border-radius: 4px; padding: 1px 8px; margin-left: 8px; cursor: pointer;
+}
+footer { padding-top: 22px; font-size: 14px; color: var(--muted); }
+</style>
+
+<div class="page">
+  <header>
+    <h1>Manova Abraham</h1>
+    <p class="sub">Technical writer, Bengaluru</p>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#tools">Tools</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I write and maintain documentation for healthcare and data privacy software. Most of it is user guides, technical and installation guides, and release notes, written in MadCap Flare.</p>
+    <p>Each update starts with what engineering gives me: the Jira ticket, the test plan, a demo recording, comments from developers, and the guide as it reads today. I work out what the reader needs to know or do, write only what those sources back up, and then make the change in Flare for review.</p>
+    <p>I use AI tools, mainly Cursor, to speed up the reading and comparing. They don't decide what goes into a guide. I do, and nothing is edited until it has been approved.</p>
+
+    <h3 style="margin-top:26px">What I do</h3>
+    <ul>
+      <li><strong>User guides.</strong> Step-by-step procedures, prerequisites and cautions, written around what the user sees on screen.</li>
+      <li><strong>Technical and installation guides.</strong> Configuration, environments and setup, with a clear line between what is supported and what isn't.</li>
+      <li><strong>Release notes.</strong> Short summaries of what changed, without implementation detail the reader doesn't need.</li>
+      <li><strong>Working from sources.</strong> Going through tickets, acceptance criteria, test plans and demos to find out what needs to change in the docs.</li>
+      <li><strong>Review packages.</strong> A handoff that shows reviewers what changed, where it came from, what I checked and what is still open.</li>
+      <li><strong>AI-assisted drafting.</strong> Cursor for pulling information out of sources, comparing it with the current guide and writing a first draft. I approve every edit.</li>
+    </ul>
+  </section>
+
+  <section id="work">
+    <h2>Work</h2>
+    <p class="small">These are the three products I document. I've left out confidential procedures and internal figures.</p>
+
+    <div class="project">
+      <h3>PET</h3>
+      <p class="kind">User guide and release notes for a privacy treatment product</p>
+      <p>With each release, I turned the changes into tasks that dataset owners, operators and administrators could follow, and wrote short release notes. I worked from Jira, test plans and demo transcripts, and compared each change with the current user guide topic before editing it. I added screenshots only when a step depended on them. API and implementation details went into the technical guide, or were left out if they didn't help the reader.</p>
+      <p>Topics I covered include the dataset lifecycle (viewing, approving and deleting a draft dataset), privacy treatments and their settings, and administration: tenants, domains, roles and app clients. I also wrote the release notes on enabling and disabling accounts.</p>
+    </div>
+
+    <div class="project">
+      <h3>Eclipse</h3>
+      <p class="kind">Installation guide and technical guide for a data anonymization platform</p>
+      <p>Cloud and configuration changes are easy to over-document, so I stuck to what installers need: the setup that works, options that aren't supported, and settings that no longer apply. I traced every change back to its ticket and the engineering comments, and updated topics and the table of contents only where something had changed. When there was no test plan or demo, I said so in the review package instead of guessing.</p>
+      <p>I wrote the AWS installation topics for EMR, EMR Serverless, Databricks and Spark, including a new integration topic that didn't exist before, and added notes on settings that don't apply on certain platforms.</p>
+    </div>
+
+    <div class="project">
+      <h3>NextGen Tokenization</h3>
+      <p class="kind">User guide, technical guide and release notes for a tokenization product</p>
+      <p>People using this product need to know two things: how to run it, and how matching, tokens and deployment settings work. I look after the user guide from getting started through projects, job runs and troubleshooting, plus the reference sections on tokens, confidence scores and job parameters. For the technical guide, I checked the existing deployment topics first and added only what was missing, based on what the ticket covered.</p>
+      <p>Here is how I split the content:</p>
+      <ul>
+        <li><strong>User guide:</strong> getting started, projects, column settings, starting a run, how runs are queued, and what to do when a message appears.</li>
+        <li><strong>Reference:</strong> how tokens are built, how confidence scores are calculated, how the match threshold works, and which job parameters to set.</li>
+        <li><strong>Technical guide:</strong> environment variables and deployment setup.</li>
+      </ul>
+      <p>If a topic is already correct, I leave it alone. I add a sentence only when the ticket, a deployment note or the guide itself shows something is missing.</p>
+    </div>
+  </section>
+
+  <section id="process">
+    <h2>How I handle a release</h2>
+    <p>With three products, several guide types and a long list of tickets each release, I needed a process I could repeat. I follow the same steps every time and make a decision at each one before moving on.</p>
+    <ol>
+      <li>Pick the release and check that the sources are available.</li>
+      <li>Pull the Jira tickets, Confluence test plans and demo transcripts, and note anything missing.</li>
+      <li>Decide which guide the change belongs in (user, technical, installation, release notes, or none) before drafting.</li>
+      <li>Write up the change and check it against the style guide.</li>
+      <li>Share the exact wording for approval. I edit Flare only after that.</li>
+      <li>Check for gaps, update Flare, build the PDF if needed, and send the review package.</li>
+    </ol>
+    <p>AI helps with steps 2 to 4: pulling information out, comparing it with the current topic, and writing a first draft. I decide the scope, remove anything the sources don't support, and approve the final text.</p>
+    <p>Every review package lists the sources I used (and any that weren't available), which guide the change went into, and what I checked, including anything still waiting on a subject matter expert.</p>
+    <p>One thing I'm strict about: an AI suggestion or a screenshot doesn't prove how the product behaves. Code can confirm a label on screen, but I need the ticket, the test plan or an engineer to confirm how a feature works.</p>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="project" style="margin-top:0">
+      <h3>AI-assisted API documentation generator</h3>
+      <p class="kind">IQVIA Innovation Hackathon, 2023 (winner)</p>
+      <p>I built a prototype that creates a first draft of an API reference from an OpenAPI specification, so writers don't start from a blank page. It won the company-wide hackathon and was shortlisted for the wider documentation toolchain.</p>
+    </div>
+    <div class="project">
+      <h3>Docs-as-code pipeline</h3>
+      <p class="kind">IQVIA</p>
+      <p>I set up a pipeline using Git, Bitbucket and Confluence, and added documentation tasks to the Jira sprint boards. Several writers could then work in parallel with full version history.</p>
+    </div>
+    <div class="project">
+      <h3>DITA migration</h3>
+      <p class="kind">Sonovision Aetos</p>
+      <p>I led the move of more than 150 pages from FrameMaker and Word into DITA XML for an aviation and defense client, which brought in topic-based authoring and single-source publishing.</p>
+    </div>
+    <div class="project">
+      <h3>ERP documentation</h3>
+      <p class="kind">Lionbridge Technologies</p>
+      <p>I wrote user manuals, troubleshooting guides and help text for more than eight modules for a Fortune 500 client, and wrote the team's first style guide.</p>
+    </div>
+  </section>
+
+  <section id="tools">
+    <h2>Tools</h2>
+    <p><strong>Writing and publishing:</strong> MadCap Flare, DITA, Oxygen XML, Markdown, Confluence, Jira, Git</p>
+    <p><strong>APIs:</strong> REST, OpenAPI / Swagger, Postman</p>
+    <p><strong>AI tools:</strong> Cursor for extraction, gap checks and first drafts; Copilot and agents for following up on demo transcripts</p>
+    <p><strong>Currently learning:</strong> Databricks notebooks, Spark, SQL and PySpark basics, and Unity Catalog, so I can check configuration details for myself</p>
+  </section>
+
+  <section id="contact" class="contact" style="border-bottom:0">
+    <h2>What's next</h2>
+    <p>I want to take on documentation for a whole release, not just individual pages. I'll keep doing the writing myself: deciding who it's for, how it's organized, which terms to use and what to leave out. The tools handle the repetitive reading and packaging, so I can spend more of my time getting the content right.</p>
+    <h2 style="margin-top:30px">Contact</h2>
+    <p>Email: <span class="email" id="email">manova.abraham@gmail.com</span><button class="copy" type="button" id="copy-email">Copy</button></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/manova-abraham" target="_blank" rel="noopener">linkedin.com/in/manova-abraham</a></p>
+  </section>
+
+  <footer>Manova Abraham, 2026</footer>
+</div>
+
+<script>
+document.getElementById("copy-email").addEventListener("click", function () {
+  var btn = this, el = document.getElementById("email");
+  function done(msg) { btn.textContent = msg; setTimeout(function () { btn.textContent = "Copy"; }, 1500); }
+  function selectIt() {
+    var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); done("Selected");
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(el.textContent.trim()).then(function () { done("Copied"); }, selectIt);
+  } else { selectIt(); }
+});
+</script>
+
+</body></html>
